@@ -38,7 +38,7 @@ flowchart TB
     E --> F["Visualização e Insights Power BI"]
 ```                                              
 
-## Principais características:
+## Principais características
 
 - Coleta automatizada via API do YouTube
 - Controle de quota da API
@@ -47,7 +47,7 @@ flowchart TB
 - Histórico acumulado para análises temporais
 - Separação clara entre código, dados e análises
 
-## Tecnologias Utilizadas:
+## Tecnologias Utilizadas
 
 - Python
 - pandas
@@ -59,7 +59,7 @@ flowchart TB
 - Power BI
 - Git & GitHub para versionamento
 
-## Organização:
+## Organização
 
 ```text
 📁 projeto-podpah
@@ -77,7 +77,7 @@ flowchart TB
 Obs: Arquivos sensíveis, dados locais e chaves de API não são versionados
 ```
 
-## Diagrama de execução do Projeto:
+## Diagrama de execução do Projeto
 
 ```mermaid
 flowchart TD
@@ -87,7 +87,7 @@ flowchart TD
     D --> E["Executar ETL<br/>python ETL/etl_podpah.py"]
 ```    
 
-## Análises em Desenvolvimento:
+## Análises em Desenvolvimento
 
 - Evolução de views ao longo do tempo
 - Engajamento (likes + comentários / views)
@@ -95,7 +95,7 @@ flowchart TD
 - Comparação entre períodos (semestral/anual)
 - Ranking de vídeos por métricas-chave
 
-## Próximos Passos Planejados:
+## Próximos Passos Planejados
 
 - Refinar modelo analítico (camada curada)
 - Criar views SQL para métricas avançadas
