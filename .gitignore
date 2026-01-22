@@ -1,0 +1,25 @@
+# Arquivos sensíveis
+.env
+*.env
+
+# Bancos de dados (muito pesados)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups (podem ficar locais)
+backups_opcao1/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Anaconda/Virtual Env
+.conda/
+venv/
+env/

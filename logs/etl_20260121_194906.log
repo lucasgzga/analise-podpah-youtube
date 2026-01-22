@@ -1,0 +1,19 @@
+2026-01-21 19:49:06,194 [INFO] ============================================================
+2026-01-21 19:49:06,194 [INFO] 🚀 ETL PODPAH - ANÁLISE TEMPORAL (SEMESTRAL/ANUAL)
+2026-01-21 19:49:06,195 [INFO] ============================================================
+2026-01-21 19:49:06,199 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-21 19:49:06,216 [ERROR] ❌ ERRO CRÍTICO: no such table: main.videos_historico
+Traceback (most recent call last):
+  File "C:\Dev\Pessoal\projeto-podpah\etl\etl_podpah.py", line 434, in main
+    init_database(config.db_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Dev\Pessoal\projeto-podpah\etl\etl_podpah.py", line 403, in init_database
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        CREATE INDEX IF NOT EXISTS idx_video_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ON videos_historico(Video_ID)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+sqlite3.OperationalError: no such table: main.videos_historico

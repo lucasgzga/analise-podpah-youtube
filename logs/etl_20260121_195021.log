@@ -1,0 +1,45 @@
+2026-01-21 19:50:21,886 [INFO] ============================================================
+2026-01-21 19:50:21,887 [INFO] 🚀 ETL PODPAH - ANÁLISE TEMPORAL (SEMESTRAL/ANUAL)
+2026-01-21 19:50:21,887 [INFO] ============================================================
+2026-01-21 19:50:21,893 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-21 19:50:21,900 [INFO] 🔍 Buscando informações do canal...
+2026-01-21 19:50:22,751 [INFO] 📺 Canal: Podpah
+2026-01-21 19:50:22,752 [INFO] 👥 Inscritos: 9,740,000
+2026-01-21 19:50:22,752 [INFO] 🔍 Coletando lista de vídeos...
+2026-01-21 19:50:53,501 [INFO] ✅ Total de vídeos: 4380
+2026-01-21 19:50:53,502 [INFO] 📊 Coletando detalhes (88 lotes)...
+2026-01-21 19:51:18,084 [INFO] ✅ Validação OK: 4380 registros válidos
+2026-01-21 19:51:18,193 [INFO] ✅ CSV salvo: data/dados_youtube_atual.csv
+2026-01-21 19:51:18,303 [INFO] 💾 Backup salvo: backups\snapshot_20260121_195118.csv
+2026-01-21 19:51:20,936 [INFO] ✅ Banco atualizado: data/banco_youtube.db
+2026-01-21 19:51:20,937 [INFO]    📊 Snapshot atual: 4380 registros
+2026-01-21 19:51:20,937 [INFO]    📈 Histórico: Dados acumulados
+2026-01-21 19:51:20,937 [INFO] 
+============================================================
+🎯 RELATÓRIO DE EXECUÇÃO - ETL PODPAH
+============================================================
+📅 Data: 2026-01-21 19:50:21
+⏱️  Tempo total: 59.04s
+📹 Vídeos coletados: 4,380
+⚡ Média: 0.01s/vídeo
+============================================================
+
+2026-01-21 19:51:20,938 [INFO] 
+============================================================
+📊 CONSUMO DE QUOTA API
+============================================================
+🔢 Quota usada: 177 / 10,000 unidades
+📈 Percentual: 1.77%
+📡 Total de chamadas: 177
+⚡ Quota restante: 9,823 unidades
+
+✅ NORMAL: 1.8% da quota usada
+============================================================
+
+2026-01-21 19:51:20,938 [INFO] ============================================================
+2026-01-21 19:51:20,938 [INFO] ✅ ETL CONCLUÍDO COM SUCESSO!
+2026-01-21 19:51:20,938 [INFO] ============================================================
+2026-01-21 19:51:20,939 [INFO] 
+💡 PRÓXIMA EXECUÇÃO:
+2026-01-21 19:51:20,939 [INFO]    📅 Sugerido: 6 meses (análise semestral)
+2026-01-21 19:51:20,939 [INFO]    📊 Dados históricos preservados para comparação

@@ -1,0 +1,27 @@
+2026-01-21 19:45:58,710 [INFO] ============================================================
+2026-01-21 19:45:58,711 [INFO] 🚀 ETL PROJETO PODPAH - INICIANDO
+2026-01-21 19:45:58,711 [INFO] ============================================================
+2026-01-21 19:45:58,716 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-21 19:45:58,724 [INFO] ⚠️  Nenhum banco anterior. Primeira execução.
+2026-01-21 19:45:58,724 [INFO] 🔍 Buscando informações do canal...
+2026-01-21 19:45:59,609 [INFO] 📺 Canal: Podpah
+2026-01-21 19:45:59,610 [INFO] 👥 Inscritos: 9,740,000
+2026-01-21 19:45:59,618 [INFO] 🔍 Coletando lista de vídeos...
+2026-01-21 19:46:29,618 [INFO] ✅ Total de vídeos encontrados: 4380
+2026-01-21 19:46:29,618 [INFO] 📊 Coletando detalhes (88 lotes)...
+2026-01-21 19:46:52,483 [INFO] ✅ Validação concluída: 4380 registros válidos
+2026-01-21 19:46:52,583 [INFO] ✅ CSV salvo: dados_youtube_atual.csv
+2026-01-21 19:46:52,742 [INFO] ✅ Banco atualizado: banco_youtube.db (4380 registros)
+2026-01-21 19:46:52,743 [INFO] 
+============================================================
+📊 RELATÓRIO DE EXECUÇÃO
+============================================================
+⏱️  Tempo total: 54.02s
+📹 Vídeos coletados: 4380
+📡 Chamadas API: 177
+⚡ Média: 0.01s/vídeo
+============================================================
+
+2026-01-21 19:46:52,743 [INFO] ============================================================
+2026-01-21 19:46:52,744 [INFO] ✅ ETL CONCLUÍDO COM SUCESSO!
+2026-01-21 19:46:52,744 [INFO] ============================================================
