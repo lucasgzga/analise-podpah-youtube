@@ -1,4 +1,4 @@
-"""
+''"""
 ETL Projeto Podpah - YouTube Data Pipeline
 Versão: 3.0 (Análise Temporal - Semestral/Anual)
 """
